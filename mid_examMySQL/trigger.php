@@ -15,7 +15,6 @@ if (isset($_POST['del'])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
 <body>
     <form action="" method="post">
         <h2>Select For Delete:</h2>
@@ -26,11 +25,9 @@ if (isset($_POST['del'])) {
             <option value="3">manufact_3</option>
             <option value="4">manufact_4</option>
             <option value="5">manufact_5</option>
-
         </select>
         <input type="submit" value="Delete" name="del">
 
     </form>
-
 </body>
 </html>
